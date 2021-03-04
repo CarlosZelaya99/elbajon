@@ -1,0 +1,87 @@
+body{
+	color:#fff;
+	font-family: Avenir;
+	font-size: 14px;
+}
+
+
+header{
+	align-items: flex-start;
+	background-color: #EB8A23;
+	padding: 20px
+}
+
+ul{
+	list-style-type: none;
+ 	margin: 0;
+ 	padding: 0;
+	color: #FFF;
+}
+
+header li {
+  display: inline;
+}
+
+header li a{
+	display: inline;
+	color: white;
+  	text-align: center;
+  	padding: 20px 16px;
+  	text-decoration: none;
+}
+
+header li a:hover {
+  	background-color: #D67621;
+	color: #FFF;
+}
+
+#hero{
+	background-image: url("../img/baleadas1.jpg");
+	background-size: cover;
+	padding: 200px 0;
+	text-align: center;
+}
+
+#hero h1{
+	color: #fff;
+	background-color: #EB8A23;
+	padding: 15px;
+	border-radius: 15px;
+}
+
+#honduras{
+	padding: 60px;
+	background-color: #EB8A23;
+}
+
+#honduras h2{
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+
+footer{
+	background-color: #A35611;
+	color: #FFF;
+	padding: 20px;
+}
+
+footer li a{
+	color: white;
+  	text-align: center;
+  	padding: 20px 25px;
+  	text-decoration: none;
+}
+
+#redes li{
+	display: inline;
+	font-size: 12px;
+	padding: 0px 10px 0 0;
+}
+
+#guaraweb{
+	text-align: right;
+	padding: 20px;
+}
+
+
