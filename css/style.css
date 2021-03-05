@@ -1,38 +1,43 @@
+@font-face {
+    font-family: 'AvenirStd';
+    src: url("../fonts/AvenirLTStd-Medium.otf") format('OpenType');
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url("../fonts/Pacifico-Regular.ttf") format('TrueType');
+}
+
+:root{
+	--color-naranja:#EB8A23;
+}
+
 body{
 	color:#fff;
-	font-family: Avenir;
+	font-family: 'AvenirStd';
 	font-size: 14px;
+}
+
+.titulo{
+	font-family: 'Pacifico';
 }
 
 
 header{
-	align-items: flex-start;
-	background-color: #EB8A23;
-	padding: 20px
+	background-color: var(--color-naranja);
+	padding: 5px 0;
 }
 
-ul{
-	list-style-type: none;
- 	margin: 0;
- 	padding: 0;
-	color: #FFF;
+.bg-transparent{
+	color: #fff;
 }
 
-header li {
-  display: inline;
-}
-
-header li a{
-	display: inline;
-	color: white;
-  	text-align: center;
-  	padding: 20px 16px;
-  	text-decoration: none;
+header img{
+	width: 200px;
 }
 
 header li a:hover {
   	background-color: #D67621;
-	color: #FFF;
 }
 
 #hero{
@@ -77,6 +82,17 @@ footer li a{
 	display: inline;
 	font-size: 12px;
 	padding: 0px 10px 0 0;
+}
+
+.list-icon i{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 100%;
+	color: #fff;
+	text-align: center;
+	display: inline-block;
+	font-size: 25px;
 }
 
 #guaraweb{

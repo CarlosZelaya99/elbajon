@@ -6,26 +6,55 @@
 <title>Restaurante El Bajón</title>
 <link href="css/style.css" rel="stylesheet">
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
 	<header>
-		<img src="img/logo_elbajon.png" alt="Logo El Bajón" class="img-fluid" width="200px">
-		<nav>
-		 <ul>
-      		<li><a href="#desayunos">Desayunos</a></li>
-      		<li><a href="#almuerzos">Almuerzos</a></li>
-			<li><a href="#cenas">Cenas</a></li>
-			<li><a href="#aperitivos">Aperitivos</a></li>
-			<li><a href="#bebidas">Bebidas y Postres</a></li>
-    	</ul>
-		</nav>
+		
+		<div class="container">
+			
+			<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+				
+			  <a class="navbar-brand" href="index.html"><img src="img/logo_elbajon.png" alt="Logo El Bajón" class="img-fluid"></a>
+				
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+
+			  <div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav ms-auto">
+				  <li class="nav-item active">
+					<a class="nav-link" href="#">Inicio</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Desayunos</a>
+				  </li>
+				  <li class="nav-item">  
+					<a class="nav-link" href="#">Almuerzos</a>
+				  </li>
+					<li class="nav-item">
+					<a class="nav-link" href="#">Cenas</a>
+					</li>
+					<li class="nav-item">
+					<a class="nav-link" href="#">Aperitivos</a>
+				  </li>
+					<li class="nav-item">
+					<a class="nav-link" href="#">Bebidas y postres</a>
+				  </li>
+				  
+				</ul>
+
+			  </div>
+			</nav>
+			
+		</div>
 	</header>
 
 	<section id="hero">
 		<div class="container">	
 			<article>
-				<h1>Restaurante El Bajón</h1>
+				<h1 class="titulo">Restaurante El Bajón</h1>
 			</article>
 		</div>
 	</section>
@@ -67,13 +96,10 @@
 			</article>
 			
 			<article class="col-lg-4 col-sm-4 col-12" id="redes">
-				<ul>
-      				<img src="img/telefono_icono.png" alt="icono teléfono" height="10px">
-					<li>9987-2014</li>
-					<img src="img/facebook_icono.png" alt="icono fb" height="10px">
-					<li>El Bajón HN</li>
-					<img src="img/ig_icono.png" alt="icono ig" height="10px">
-					<li>elbajonhn</li>
+				<ul class="list-icon list-unstyled">
+					<li><i class="fas fa-mobile"></i>9987-2014</li>
+					<li><i class="fab fa-facebook-square"></i>El Bajón HN</li>
+					<li><i class="fab fa-instagram"></i>elbajonhn</li>
 				</ul>
 			</article>
 			
