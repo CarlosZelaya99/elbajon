@@ -22,6 +22,17 @@ body{
 	font-family: 'Pacifico';
 }
 
+.titulo-naranja{
+	font-family: 'Pacifico';
+	color: var(--color-naranja);
+	text-align: left;
+	font-size: 70px;
+	background-color: #fff;
+	padding: 20px;
+	margin-left: 20px;
+	background-size: cover;
+}
+
 
 header{
 	background-color: var(--color-naranja);
@@ -38,6 +49,10 @@ header img{
 
 header li a:hover {
   	background-color: #D67621;
+}
+
+nav .active{
+	background-color: #D67621;
 }
 
 #hero{
@@ -99,5 +114,33 @@ footer li a{
 	text-align: right;
 	padding: 20px;
 }
+
+#titulo-menu{
+	background-color: var(--color-naranja);
+	padding: 10px 0;
+}
+
+#platillos{
+	margin-left: 50px;
+	padding: 3% 0;
+}
+
+.etiqueta-platillo{
+	text-align: center;
+	margin: 20px 0;
+	font-size: 22px;
+}
+
+#platillos p{
+	font-size: 20px;
+	font-weight: 300;
+}
+
+#platillos p span{
+	font-weight: 600;
+}
+
+
+
 
 
